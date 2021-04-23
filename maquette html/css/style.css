@@ -1,0 +1,63 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url("../img/massimiliano-morosinotto-TgqU1p8earY-unsplash.jpg");
+}
+header {
+    background-color: darkslategrey;
+    margin:0;
+}
+header h1 {
+    margin: 0;
+    text-align:center;
+    padding: 10px 0px;
+    color:orangered;
+}
+img {
+    width:250px;
+}
+ul {
+    margin:50px 0px;
+    width:10%;
+    background-color:lightgrey;
+    position:fixed;
+}
+ul li, ul li a {
+    color: orangered;
+    text-decoration:none;
+    padding:10px;
+}
+ul li a:hover {
+    color:orangered;
+}
+
+article {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+article h2 {
+    background-color: lightgrey;
+    padding:10px;
+    border-radius:50%;
+    color:orangered;
+    width:30%;
+    margin: 0 auto;
+}
+article p {
+    font-size: 20px;
+    color:white;
+}
+
+footer {
+    background-color: darkslategray;
+    padding:20px;
+    text-align:center;
+}
+footer p, footer p a {
+    text-decoration:none;
+    color:white;
+}
